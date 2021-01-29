@@ -14,5 +14,7 @@ data -> data Validation
 =VLOOKUP (value, table, col_index, [range_lookup])
 =VLOOKUP(D4,A10:E11,4,FALSE)
 
+=VLOOKUP(HostList[@Hostname],Sheet1!D:E,2,FALSE)
+
 ### Odwołania względne i bezwględne
 =$B$1*$A$2
