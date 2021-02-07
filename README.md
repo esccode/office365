@@ -1,4 +1,6 @@
 # office365
+w polskim exel separotorem jest srednik
+w angielskim exel separatorem jest przecinek
 
 ## Exel
 https://exceljet.net/excel-functions/excel-lookup-function
@@ -6,7 +8,7 @@ https://exceljet.net/excel-functions/excel-lookup-function
 ### Data Validation
 data -> data Validation
 
-### Excel lookup v vlookup Functions
+### Excel lookup(wyszukaj) v vlookup(wszukaj pionowo) Functions
 =LOOKUP (lookup_value, lookup_vector, [result_vector])
 =LOOKUP(G7,C6:C10,D6:D10)
 =LOOKUP(G7,C6:C10)
@@ -18,3 +20,11 @@ data -> data Validation
 
 ### Odwołania względne i bezwględne
 =$B$1*$A$2
+
+### =jezeli
+=jazeli(B2>=A4;"jest wieksze";"nie jest wieksze")
+=IF(logical_test, [value_if_true], [value_if_false])
+
+###==warunki (IFS) z IFERROR
+=IFERROR(IFS(A10=23,"wynik pierwszego warunku",A12>=25,"wynik drugiego warunku"),"jezeli nie spelniony zaden warunek")
+=IFERROR(IFS(A10=23,"ok",A12=25,"super"),I3)
