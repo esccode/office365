@@ -20,11 +20,12 @@ data -> data Validation
 
 ### Odwołania względne i bezwględne
 =$B$1*$A$2
+blokujemy kolumne lub wiersze lub obje jednoczesnie
 
-### =jezeli
+### =jezeli moze byz z IFERROR
 =jazeli(B2>=A4;"jest wieksze";"nie jest wieksze")
 =IF(logical_test, [value_if_true], [value_if_false])
 
-###==warunki (IFS) z IFERROR
+### =warunki (IFS) z IFERROR
 =IFERROR(IFS(A10=23,"wynik pierwszego warunku",A12>=25,"wynik drugiego warunku"),"jezeli nie spelniony zaden warunek")
 =IFERROR(IFS(A10=23,"ok",A12=25,"super"),I3)
