@@ -33,3 +33,7 @@ blokujemy kolumne lub wiersze lub obje jednoczesnie
 ### =countif(zakres,"kryteria"), licz.jeżeli(zakres,"kryteria")
 =COUNTIF(D9:D12,"name")
 podlicza wystapienie kryterium z zakresu
+
+### =sumif(zakres,"kryteria",suma-zakres)
+=SUMIF(C10:C13,"sssss",B10:B13)
+sumujemy kryterium wystepujace w jednej kolumnie z danych wystepujacych w innej kolumnie
