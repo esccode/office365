@@ -29,3 +29,7 @@ blokujemy kolumne lub wiersze lub obje jednoczesnie
 ### =warunki (IFS) z IFERROR
 =IFERROR(IFS(A10=23,"wynik pierwszego warunku",A12>=25,"wynik drugiego warunku"),"jezeli nie spelniony zaden warunek")
 =IFERROR(IFS(A10=23,"ok",A12=25,"super"),I3)
+
+### =countif(zakres,"kryteria"), licz.jeżeli(zakres,"kryteria")
+=COUNTIF(D9:D12,"name")
+podlicza wystapienie kryterium z zakresu
