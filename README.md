@@ -38,5 +38,6 @@ podlicza wystapienie kryterium z zakresu
 =SUMIF(C10:C13,"sssss",B10:B13)
 sumujemy kryterium wystepujace w jednej kolumnie z danych wystepujacych w innej kolumnie
 
-### =SUMIFS(zakres-liczenia,zakres-wystopienia-kryterium,"kryterium")
+### =SUMIFS(zakres-liczenia,zakres-wystopienia-kryterium,"kryterium",...)
 =SUMIFS(A:A,C:C,"sssss")
+warunkow moze byc duzo
